@@ -3,6 +3,7 @@ print("test")
 
 # Variables and constants
 a = 1
+b = "string"
 
 # Type of variables
 # string

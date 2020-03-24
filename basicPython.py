@@ -4,6 +4,7 @@ print("test")
 # Variables and constants
 a = 1
 b = "string"
+boolean = True
 
 # Type of variables
 # string

@@ -1,31 +1,27 @@
 # Print
-print("test")
 
 # Variables and constants
-a = 1
-b = "string"
-boolean = True
 
 # Type of variables
-# string
-# s.capitalize(), s.upper(), s.lower(), s.replace(a, b)
+#   string
+#       s.capitalize(), s.upper(), s.lower(), s.replace(a, b), s.split()
 
 # Operators
 
 # Functions and imports
 
 # Conditions
-# if, elif, else
+#   if, elif, else
 
 # Loops
-# for, while
-# in range()
+#   for, while
+#       in range()
 
 # Pointers
 
 # Lists
-# copy function
-# append, pop
+#   copy function
+#   append, pop
 
 # Slicing
 
@@ -40,8 +36,8 @@ boolean = True
 # s.add(), s.remove()
 
 # Classes
-# Constructor
-#   def __init__(self, variable=0):
-#       self.value = variable
-# Methods
+#   Constructor
+#       def __init__(self, variable=0):
+#           self.value = variable
+#   Methods
  

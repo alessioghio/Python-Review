@@ -2,6 +2,7 @@
 print("test")
 
 # Variables and constants
+a = 1
 
 # Type of variables
 # string

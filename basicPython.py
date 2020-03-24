@@ -1,4 +1,5 @@
 # Print
+print("test")
 
 # Variables and constants
 

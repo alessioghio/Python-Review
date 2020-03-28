@@ -1,5 +1,8 @@
 from myFunctions import expo
-import myFunctions
+# import myFunctions
+import myFunctions as mf
+
+C2F = mf.C2F
 
 # Print
 # print(-3)
@@ -39,6 +42,7 @@ nombre = "bruno" # string
 # division: /
 # multiplication: *
 # power: ** IMPORTANTE
+# % modulus
 
 #print(nombre + " " + apellido)
 #print("La gravedad es: " + str(gravedad) + " m/s^2")
@@ -54,16 +58,70 @@ def sumar2nums(num1, num2):
 resultado = sumar2nums(5,3)
 
 exponencial = expo(2,3)
-print(exponencial)
+# print(exponencial)
 
-myFunctions.welcomeMSG()
+# mf.welcomeMSG()
+# print(C2F(0))
 
 # Conditions
 #   if, elif, else
+# Boolean <--- important
+# == : compare identical values
+# < and <=
+# > and >=
+# !=
+# or : logic OR
+# and logic AND
+input = "sdgesaer"
+condition = input == nombre # THIS IS BOOLEAN
+# print(condition)
+
+"""
+if(condition):
+    print("somos tocayos")
+elif(input == "alessio"):
+    print("eres uno de mis mejores amigos")
+else:
+    print("igual podemos ser amigos")
+"""
+"""
+bankAccount = 0
+if(bankAccount > 0):
+    print("tenemos dinero")
+elif(bankAccount == 0):
+    print("Estamos en la bancarrota")
+else:
+    print("el cagadon debemos plata")
+"""
 
 # Loops
-#   for, while
-#       in range()
+#   for -> in range() # when you the number of iterations
+#   while # when you don't know th enumber of iterations
+
+"""
+# Prime number finder
+for i in range(1,101):
+    count = 0
+    if(i==1 or i==2):
+        print("Number %d is prime" % (i))
+        continue # break
+    for j in range(i-1,1,-1):
+        if(i%j==0):
+            count = count + 1
+    if(count==0):
+        print("Number %d is prime" % (i))
+"""
+"""
+input = 101
+print(input)
+while(input!=1):
+    if(input%2==0):
+        input /= 2
+        print(input)
+    else:
+        input = 3*input + 1
+        print(input)
+"""
 
 # Pointers
 

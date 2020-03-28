@@ -8,3 +8,7 @@ def expo(num1, num2):
 
 def welcomeMSG(): # void
     print("Bienvenidos amigos de YouTube")
+
+def C2F(temperature):
+    res = temperature*9/5 + 32
+    return res

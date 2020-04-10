@@ -1,2 +1,2 @@
 # Python-Review
-Esta es una clase para Bruno
+Esta es una clase para *Bruno*
